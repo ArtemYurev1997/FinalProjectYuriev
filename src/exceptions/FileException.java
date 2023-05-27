@@ -1,14 +1,6 @@
 package exceptions;
 
-public class FileException extends RuntimeException {
+public class FileException  {
 
-    public FileException(String message) {
-        super(message);
-    }
-
-    @Override
-    public String toString() {
-        return "Файловое исключение";
-    }
 
 }
